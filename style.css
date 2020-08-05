@@ -4,15 +4,18 @@
     outline-offset: 0;
 }
 
-.hide {
-  display: none;
+*{
+  font-family: 'Lobster', cursive;
+  color: aliceblue;
 }
 
 body {
   background-color: rgb(61, 61, 61);
-  color: aliceblue;
+  background: url(bg1.jpg) no-repeat;
+  background-size: cover;
+	background-position: center center;
+	background-attachment: fixed;
   font-size: 32px;
-  font-family: 'Teko', sans-serif;
 }
 
 .label {
@@ -34,13 +37,11 @@ body {
 }
 
 #count {
-background-color: rgb(61, 61, 61);
-color: aliceblue;
-font-size: 32px;
-display: inline-block;
-width: 60px;
-border: none;
-font-family: 'Teko', sans-serif;
+  background-color: transparent;
+  font-size: 32px;
+  display: inline-block;
+  width: 60px;
+  border: none;
 }
 
 .button {
@@ -51,12 +52,14 @@ font-family: 'Teko', sans-serif;
   width: 70px;
   height: 70px;
   border-radius: 50%;
-  border: 1px solid white;
-  font-family: 'Teko', sans-serif;
+  border: 2px solid white;
   font-size: 24px;
-  color: aliceblue;
   background-color: #000;
   margin: 20px auto;
   display: block;
+}
+
+.hide {
+  display: none;
 }
 
