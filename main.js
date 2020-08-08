@@ -9,7 +9,7 @@ function shuffle() {
   const players = document.querySelector('#count');
   const doctor = document.querySelector('#doctor');
   
-  let array = ['Доктор', 'Дон Мафии', 'Мафия', 'Мафия', 'Мафия'];
+  let array = ['Доктор', 'Дон Мафии', 'Мафия', 'Мафия'];
   array.length = players.value;
   
   for (let i = 0; i < array.length; i++) {
